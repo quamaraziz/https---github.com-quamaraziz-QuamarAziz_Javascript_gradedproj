@@ -1,0 +1,65 @@
+.deletebtn {
+    background-color: red;
+  }
+
+  .warning {
+    background-color: green;
+  }
+
+  .btn-success {
+    background-color: blue;
+  }
+ 
+.bar-box {
+    background: ghostwhite;
+    padding: 20px 0px 50px 20px;
+    margin:50px auto;
+    max-width: 550px;
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+}
+.inputData input {
+  border: transparent !important;
+  background: transparent;
+  font-size: 20px;
+}
+input.active {
+  background: orange;
+}
+
+input#appname , .inputData input {
+  padding: 8px 12px;
+  width: 350px;
+  border: 1px solid #efebeb;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+::placeholder { font-size: 20px;}
+button.btn.btn-success {
+  background: blue;
+  color: #fff;
+  border: transparent;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+button.edit { background: green; }
+button.update { background: orange;}
+button.delete  { background: red;margin-left: 10px;}
+button.edit , button.delete , button.update{ 
+  color: #fff;
+  border: transparent;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+header h1 {
+  font-size: 36px;
+  font-weight: 800;
+  color:blue;
+}
